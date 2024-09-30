@@ -5,11 +5,11 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAUI_NghiaTrangLietSi", "MAUI_NghiaTrangLietSi\MAUI_NghiaTrangLietSi.csproj", "{6D1A285F-0F33-4F5C-A1FE-155066851A9E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAUI_NghiaTrangListSi.Core", "MAUI_NghiaTrangListSi.Core\MAUI_NghiaTrangListSi.Core.csproj", "{2D7ABD79-EBB7-4BE6-8F6F-CB7A99D9AD04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUI_NghiaTrangListSi.Core", "MAUI_NghiaTrangListSi.Core\MAUI_NghiaTrangListSi.Core.csproj", "{2D7ABD79-EBB7-4BE6-8F6F-CB7A99D9AD04}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAUI_NghiaTrangLietSi.BLL", "MAUI_NghiaTrangLietSi.BLL\MAUI_NghiaTrangLietSi.BLL.csproj", "{382C565A-F2A9-48B4-B8F2-7EA08FCFB78F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUI_NghiaTrangLietSi.BLL", "MAUI_NghiaTrangLietSi.BLL\MAUI_NghiaTrangLietSi.BLL.csproj", "{382C565A-F2A9-48B4-B8F2-7EA08FCFB78F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAUI_NghiaTrangLietSi.DAL", "MAUI_NghiaTrangLietSi.DAL\MAUI_NghiaTrangLietSi.DAL.csproj", "{7E5FCD36-2212-4589-BA5A-19968395E0A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUI_NghiaTrangLietSi.DAL", "MAUI_NghiaTrangLietSi.DAL\MAUI_NghiaTrangLietSi.DAL.csproj", "{7E5FCD36-2212-4589-BA5A-19968395E0A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
