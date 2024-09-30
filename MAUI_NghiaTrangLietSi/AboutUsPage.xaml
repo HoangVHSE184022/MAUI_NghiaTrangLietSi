@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_NghiaTrangLietSi.AboutUsPage"
+             Title="Về chúng tôi"
+             Shell.NavBarIsVisible="False">
+
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+
+            <Label Text="Về chúng tôi" 
+                   FontSize="36" 
+                   FontAttributes="Bold"
+                   TextColor="Red"
+                   HorizontalOptions="StartAndExpand"/>
+
+            <StackLayout Padding="0,20,0,0" Spacing="10">
+
+                <Label Text="Phiên bản: 0.0.1" FontSize="18"/>
+                <Label Text="Công ty: Amazing Tech" FontSize="18"/>
+                <Label Text="Điều khoản sử dụng dịch vụ và ứng dụng" FontSize="18"/>
+                <Label Text="Chính sách quyền riêng tư" FontSize="18"/>
+                <Label Text="Hotline hỗ trợ: 0987654321" FontSize="18"/>
+                <Label Text="Hướng dẫn sử dụng" FontSize="18"/>
+
+            </StackLayout>
+
+            <StackLayout VerticalOptions="EndAndExpand" Padding="0,0,0,0">
+                <Label Text="Copyright © AmazingTech 2024" 
+                       HorizontalOptions="Center"
+                       FontSize="14"/>
+
+                <Grid HeightRequest="50" HorizontalOptions="Fill">
+                    <BoxView Color="Blue" />
+
+                    <Label Text="Cái này là quảng cáo"
+                       FontSize="18"
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+                </Grid>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
