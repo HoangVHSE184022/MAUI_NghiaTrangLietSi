@@ -7,9 +7,16 @@
     Shell.FlyoutBehavior="Disabled"
     Title="MAUI_NghiaTrangLietSi">
 
+    <!-- Home Page -->
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+
+    <!-- About Us Page -->
+    <ShellContent
+        Title="About Us"
+        ContentTemplate="{DataTemplate local:AboutUsPage}"
+        Route="AboutUsPage" />
 
 </Shell>
