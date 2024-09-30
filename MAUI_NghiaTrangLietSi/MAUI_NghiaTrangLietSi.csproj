@@ -62,4 +62,14 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\MAUI_NghiaTrangLietSi.BLL\MAUI_NghiaTrangLietSi.BLL.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="xaml.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
